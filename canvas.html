@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>canvas</title>
+    <script>
+    window.addEventListener("load",function(){
+    const canvas = document.getElementById("color");
+    const context = canvas.getContext("2d");
+
+   
+    context.fillStyle = "red";
+    context.fillRect(0, 0, 400, 400);//1-1번째
+    
+    context.fillStyle = "red";
+    context.fillRect(800, 0, 400, 400);//1-2번째
+    
+    context.fillStyle = "red";
+    context.fillRect(400, 400, 400, 400);//2-2번째
+    
+    context.fillStyle = "red";
+    context.fillRect(1200, 400, 400, 400);//2-4번째
+
+    context.fillStyle = "red";
+    context.fillRect(0, 800, 400, 400);//3-1번째
+
+    context.fillStyle = "red";
+    context.fillRect(800, 800, 400, 400);//3-2번째
+
+    context.fillStyle = "red";
+    context.fillRect(400, 1200, 400, 400);//4-1번째
+
+    context.fillStyle = "red";
+    context.fillRect(1200, 1200, 400, 400);//4-1번째
+
+   //y 0에서 400씩 1200까지
+   //x 0에서 800까지 두번
+
+    
+    
+
+
+
+
+  
+
+    })
+    </script>
+</head>
+<body>
+ <canvas id="color"
+ width="1600";
+ height="1600";
+ ></canvas>   
+</body>
+</html>
